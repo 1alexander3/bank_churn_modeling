@@ -22,7 +22,7 @@ from sklearn.tree import DecisionTreeClassifier
 warnings.filterwarnings('ignore')
 
 # read dataset and add to dataframe bank_data
-bank_data = pd.read_csv("C:/Users/arwin/python folder/bank-customer-churn-dataset/Churn_Modelling.csv", sep=",")
+bank_data = pd.read_csv("Churn_Modelling.csv", sep=",")
 
 # first 5 rows of data
 print(bank_data.head())
